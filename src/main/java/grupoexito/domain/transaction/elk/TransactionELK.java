@@ -15,7 +15,7 @@ public class TransactionELK<T> implements Serializable {
     private final String operation;
     private final String type;
     private final Date timeStamp;
-    private final Message<T> event;
+    private final Event<T> event;
     private final String status;
     private final String trace;
     private final Integer messagesIn;
